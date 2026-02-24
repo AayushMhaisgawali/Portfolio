@@ -1,0 +1,45 @@
+﻿=== PAGE 1 ===
+Aayush Ankush Mhaisgawali
+ayushmhaisgawali@gmail.com | +91 9765223639 | Nagpur, Maharashtra LinkedIn | Github
+SUMMARY
+Third-year Electrical Engineering student experienced in embedded systems, IoT, web development, and mobile applications. Worked on modeling
+and analysis of memristor behavior. Developed ESP32-based monitoring systems and a workflow automation platform focused on performance
+optimization and system efficiency.
+EDUCATION
+Bachelor of Technology (B.Tech) in Electrical Engineering
+JD College of Engineering and Management, Nagpur (2023 û Present)
+CGPA: 9.05/10.00
+HSC-(PCM)
+Ira International School, CBSE, Buttibori, Nagpur (2021 û 2023)
+Percentile: 74.4%
+SKILLS
+ò Embedded Systems & IoT: ESP32, Raspberry Pi, Arduino; real-time data acquisition, edge computing, TCP/IP, HTTP/MQTT.
+ò Programming: C/C++, Python, JavaScript, TypeScript.
+ò Simulation & Tools: MATLAB, Multisim, LTspice, Git.
+ò Frameworks & Databases: Flask, Node.js, React.js, PostgreSQL.
+ò Core Areas: Embedded System Design, IoT Architecture, AI/ML.
+EXPERIENCE
+Visvesvaraya National Institute of Technology (VNIT), Nagpur - (Project Internship) (8 Dec 2025 û 15 April 2025)
+ò Developing a low-cost acoustic sensor array with edge processing for predictive maintenance.
+ò Designing real-time anomaly detection to identify degradation signatures such as bearing wear and electrical faults.
+ò Implementing lightweight ML models on ULP microcontrollers for on-device classification, reducing bandwidth and latency.
+Visvesvaraya National Institute of Technology (VNIT), Nagpur - (Research Internship) (2 June 2025 û 15 July 2025)
+ò Researched a memristor-based full-bridge rectifier with LLC converter, focusing on nonlinear behavior and performance.
+ò Developed mathematical models and performed MATLAB simulations to study and optimize system characteristics.
+ò Co-authored a research paper based on this work.
+Virtual Internship û Accenture (Job Simulation) (Self-paced û 24 August 2024)
+ò Completed a healthcare client simulation focused on mobile app improvement.
+ò Analyzed client requirements and data to support UX optimization and project prioritization.
+PROJECTS
+Acoustic & Thermal Anomaly Detection for Predictive Maintenance in 2-Wheeler islanded EV charging station (Ongoing)
+ò Developing a non-invasive acoustic and thermal monitoring system for predictive maintenance of EV charging infrastructure.
+ò Designing real-time edge algorithms to detect component degradation and electrical anomalies.
+ò Deploying lightweight ML models on microcontrollers for on-device classification, minimizing latency and communication overhead.
+E-Bike Safety Speed Control System
+ò Designed a real-time speed regulation mechanism using sensor fusion and microcontroller-based control logic.
+ò Integrated speed and obstacle detection sensors to enable automated alerts and dynamic control actions.
+ò Developed embedded control algorithms to enhance rider safety and prevent over-speed conditions.
+Task Scheduling AI Agent
+ò Developed a Python-based intelligent task management agent for prioritization and automated scheduling.
+ò Integrated API-based intelligence to dynamically organize tasks based on contextual inputs.
+ò Designed modular workflow logic to improve scalability and execution efficiency.

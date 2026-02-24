@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aayush Mhaisgawali | Embedded Systems & IoT Engineer</title>
+  <meta name="description"
+    content="Portfolio of Aayush Ankush Mhaisgawali — Electrical Engineering student specializing in Embedded Systems, IoT, Web Development & AI/ML." />
+  <meta name="keywords" content="embedded systems, IoT, ESP32, Python, React, VNIT, developer portfolio, Nagpur" />
+  <meta property="og:title" content="Aayush Mhaisgawali | Developer Portfolio" />
+  <meta property="og:description" content="Embedded Systems, IoT, and Full-Stack Developer Portfolio" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo"><span>&lt;</span>AM<span>/&gt;</span></a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about" id="nav-about">About</a></li>
+          <li><a href="#skills" id="nav-skills">Skills</a></li>
+          <li><a href="#experience" id="nav-experience">Experience</a></li>
+          <li><a href="#projects" id="nav-projects">Projects</a></li>
+          <li><a href="#education" id="nav-education">Education</a></li>
+          <li><a href="#contact" class="nav-cta" id="nav-contact">Contact ✉</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <canvas id="particleCanvas"></canvas>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="hero-badge">
+            <span class="pulse"></span>
+            Available for Internships &amp; Collaborations
+          </div>
+          <h1 class="hero-name">Aayush<br />Mhaisgawali</h1>
+          <div class="hero-role-wrapper">
+            <span class="hero-role-prefix">I'm a</span>
+            <span class="typewriter" id="typewriter"></span>
+            <span class="cursor"></span>
+          </div>
+          <p class="hero-description">
+            Third-year Electrical Engineering student passionate about bridging hardware and software — from
+            bare-metal microcontrollers to full-stack web apps and intelligent ML systems.
+          </p>
+          <div class="hero-actions">
+            <a href="resume_new.pdf" download class="btn btn-primary" id="btn-cv">
+              ⬇ Download Resume
+            </a>
+            <a href="#contact" class="btn btn-outline" id="btn-contact">
+              💬 Let's Talk
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-value">9.05</span>
+              <span class="stat-label">CGPA / 10</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">3+</span>
+              <span class="stat-label">Internships</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">3+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual -->
+        <div class="hero-visual">
+          <div class="hero-avatar-container">
+            <div class="avatar-glow"></div>
+            <div class="avatar-ring"></div>
+            <div class="avatar-ring-2"></div>
+            <div class="avatar-inner">
+              <img src="portfolio_image.jpg" alt="Aayush Mhaisgawali" class="hero-avatar">
+              <span class="avatar-subtitle">EE • IoT • ML</span>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>SCROLL</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// 01 — About Me</span>
+        <h2 class="section-title">Who I Am</h2>
+        <p class="section-subtitle">A curious engineer who loves turning ideas into reality — from hardware circuits to
+          cloud deployments.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h3>Building at the intersection of hardware &amp; software</h3>
+          <p>
+            I'm a <span>third-year B.Tech Electrical Engineering</span> student at JD College of Engineering and
+            Management, Nagpur — maintaining a CGPA of <span>9.05/10</span>.
+          </p>
+          <p>
+            My work spans from programming <span>ESP32 microcontrollers</span> for real‑time IoT systems to building
+            full-stack web applications with <span>React & Node.js</span>. I've done research internships at <span>VNIT
+              Nagpur</span>, co-authored a research paper on memristor-based rectifiers, and I'm currently developing
+            ML-powered predictive maintenance systems for EV charging infrastructure.
+          </p>
+          <p>
+            I believe in building things that matter — efficient, scalable, and grounded in solid engineering
+            principles.
+          </p>
+
+          <div class="about-details">
+            <div class="detail-item">
+              <span class="label">📍 Location</span>
+              <span class="value">Nagpur, Maharashtra, India</span>
+            </div>
+            <div class="detail-item">
+              <span class="label">📧 Email</span>
+              <a href="mailto:ayushmhaisgawali@gmail.com" class="value">ayushmhaisgawali@gmail.com</a>
+            </div>
+            <div class="detail-item">
+              <span class="label">📞 Phone</span>
+              <span class="value">+91 9765223639</span>
+            </div>
+            <div class="detail-item">
+              <span class="label">🎓 College</span>
+              <span class="value">JD College of Engineering, Nagpur</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-cards reveal reveal-delay-2">
+          <div class="glass-card about-card purple">
+            <span class="icon">🎓</span>
+            <span class="number">9.05</span>
+            <span class="label">CGPA / 10.00</span>
+          </div>
+          <div class="glass-card about-card cyan">
+            <span class="icon">🔬</span>
+            <span class="number">2</span>
+            <span class="label">Research Internships</span>
+          </div>
+          <div class="glass-card about-card pink">
+            <span class="icon">🛠️</span>
+            <span class="number">3+</span>
+            <span class="label">Projects Built</span>
+          </div>
+          <div class="glass-card about-card green">
+            <span class="icon">📄</span>
+            <span class="number">1</span>
+            <span class="label">Research Paper</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// 02 — Skills</span>
+        <h2 class="section-title">What I Work With</h2>
+        <p class="section-subtitle">A diverse toolkit spanning embedded hardware, backend systems, and AI/ML pipelines.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Embedded & IoT -->
+        <div class="glass-card skill-category cat-embedded reveal">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">⚡</div>
+            <h3 class="skill-category-title">Embedded Systems &amp; IoT</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">🔌 ESP32</span>
+            <span class="skill-tag">🍓 Raspberry Pi</span>
+            <span class="skill-tag">🤖 Arduino</span>
+            <span class="skill-tag">TCP/IP</span>
+            <span class="skill-tag">MQTT</span>
+            <span class="skill-tag">HTTP</span>
+            <span class="skill-tag">Edge Computing</span>
+            <span class="skill-tag">Real-Time Data</span>
+            <span class="skill-tag">Sensor Fusion</span>
+          </div>
+        </div>
+
+        <!-- Programming Languages -->
+        <div class="glass-card skill-category cat-programming reveal reveal-delay-1">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">💻</div>
+            <h3 class="skill-category-title">Programming Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">⚙️ C / C++</span>
+            <span class="skill-tag">🐍 Python</span>
+            <span class="skill-tag">🌐 JavaScript</span>
+            <span class="skill-tag">📘 TypeScript</span>
+          </div>
+        </div>
+
+        <!-- Frameworks & Databases -->
+        <div class="glass-card skill-category cat-frameworks reveal reveal-delay-2">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">🧩</div>
+            <h3 class="skill-category-title">Frameworks &amp; Databases</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">⚛️ React.js</span>
+            <span class="skill-tag">🟢 Node.js</span>
+            <span class="skill-tag">🌶️ Flask</span>
+            <span class="skill-tag">🐘 PostgreSQL</span>
+            <span class="skill-tag">REST API</span>
+          </div>
+        </div>
+
+        <!-- Simulation & Tools -->
+        <div class="glass-card skill-category cat-tools reveal reveal-delay-3">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">🛠️</div>
+            <h3 class="skill-category-title">Simulation &amp; Tools</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">📊 MATLAB</span>
+            <span class="skill-tag">🔬 Multisim</span>
+            <span class="skill-tag">📐 LTspice</span>
+            <span class="skill-tag">🔧 Git</span>
+            <span class="skill-tag">AI / ML</span>
+            <span class="skill-tag">TinyML</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// 03 — Experience</span>
+        <h2 class="section-title">Where I've Worked</h2>
+        <p class="section-subtitle">Hands-on internships at one of India's premier NITs, working on real research and
+          engineering problems.</p>
+      </div>
+
+      <div class="timeline">
+        <!-- Internship 1 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="glass-card exp-card">
+            <div class="exp-header">
+              <div>
+                <div class="exp-role">Project Intern — Embedded ML &amp; Predictive Maintenance</div>
+                <div class="exp-company">Visvesvaraya National Institute of Technology (VNIT), Nagpur</div>
+              </div>
+              <span class="exp-date">Dec 2025 – Apr 2025</span>
+            </div>
+            <span class="exp-type internship">Project Internship</span>
+            <ul class="exp-points">
+              <li>Developing a low-cost acoustic sensor array with edge processing for predictive maintenance of
+                industrial equipment.</li>
+              <li>Designing real-time anomaly detection algorithms to identify degradation signatures such as bearing
+                wear and electrical faults.</li>
+              <li>Implementing lightweight TinyML models on ULP microcontrollers for on-device classification, reducing
+                bandwidth and latency.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Internship 2 -->
+        <div class="timeline-item reveal reveal-delay-1">
+          <div class="timeline-dot"></div>
+          <div class="glass-card exp-card">
+            <div class="exp-header">
+              <div>
+                <div class="exp-role">Research Intern — Power Electronics &amp; Memristors</div>
+                <div class="exp-company">Visvesvaraya National Institute of Technology (VNIT), Nagpur</div>
+              </div>
+              <span class="exp-date">Jun 2025 – Jul 2025</span>
+            </div>
+            <span class="exp-type research">Research Internship</span>
+            <ul class="exp-points">
+              <li>Researched a memristor-based full-bridge rectifier with LLC converter, focusing on nonlinear behavior
+                and performance analysis.</li>
+              <li>Developed mathematical models and performed MATLAB simulations to study and optimize system
+                characteristics.</li>
+              <li>Co-authored a research paper based on this work — contributing original findings to the field of
+                nonlinear power electronics.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Internship 3 -->
+        <div class="timeline-item reveal reveal-delay-2">
+          <div class="timeline-dot"></div>
+          <div class="glass-card exp-card">
+            <div class="exp-header">
+              <div>
+                <div class="exp-role">Virtual Intern — Healthcare UX &amp; Product Strategy</div>
+                <div class="exp-company">Accenture (Job Simulation)</div>
+              </div>
+              <span class="exp-date">Aug 2024</span>
+            </div>
+            <span class="exp-type virtual">Virtual Internship</span>
+            <ul class="exp-points">
+              <li>Completed a healthcare client simulation focused on mobile app improvement and UX strategy.</li>
+              <li>Analyzed client requirements and user data to support UX optimization and project prioritization
+                decisions.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// 04 — Projects</span>
+        <h2 class="section-title">What I've Built</h2>
+        <p class="section-subtitle">Real-world engineering projects that blend hardware, software, and intelligence.</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="glass-card project-card reveal">
+          <div class="project-banner"
+            style="background: linear-gradient(135deg, #0a1628 0%, #1a0a2e 50%, #0a1628 100%);">
+            🔊
+          </div>
+          <div class="project-body">
+            <span class="project-status ongoing"><span class="dot"></span> Ongoing</span>
+            <h3 class="project-title">Acoustic &amp; Thermal Anomaly Detection for EV Charging Station</h3>
+            <p class="project-desc">
+              Developing a non-invasive acoustic and thermal monitoring system for predictive maintenance of 2-Wheeler
+              islanded EV charging infrastructure.
+              Features real-time edge algorithms and lightweight ML models deployed directly on microcontrollers.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">ESP32</span>
+              <span class="tech-tag">TinyML</span>
+              <span class="tech-tag">Acoustic Sensors</span>
+              <span class="tech-tag">Edge Computing</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Anomaly Detection</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="glass-card project-card reveal reveal-delay-1">
+          <div class="project-banner"
+            style="background: linear-gradient(135deg, #0a1a28 0%, #0a280a 50%, #0a1a28 100%);">
+            ⚡
+          </div>
+          <div class="project-body">
+            <span class="project-status completed"><span class="dot"></span> Completed</span>
+            <h3 class="project-title">E-Bike Safety Speed Control System</h3>
+            <p class="project-desc">
+              Designed a real-time speed regulation mechanism using sensor fusion and microcontroller-based control
+              logic.
+              Integrates speed and obstacle detection sensors to enable automated alerts and dynamic control actions
+              that enhance rider safety.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Microcontroller</span>
+              <span class="tech-tag">Sensor Fusion</span>
+              <span class="tech-tag">C/C++</span>
+              <span class="tech-tag">Real-Time Control</span>
+              <span class="tech-tag">Safety Systems</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="glass-card project-card reveal reveal-delay-2">
+          <div class="project-banner"
+            style="background: linear-gradient(135deg, #1a0a28 0%, #280a28 50%, #1a0a28 100%);">
+            🤖
+          </div>
+          <div class="project-body">
+            <span class="project-status completed"><span class="dot"></span> Completed</span>
+            <h3 class="project-title">Task Scheduling AI Agent</h3>
+            <p class="project-desc">
+              Developed a Python-based intelligent task management agent for dynamic prioritization and automated
+              scheduling.
+              Integrated API-based intelligence to organize tasks based on contextual inputs with modular workflow logic
+              for scalability.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">AI / LLM API</span>
+              <span class="tech-tag">Task Scheduling</span>
+              <span class="tech-tag">Automation</span>
+              <span class="tech-tag">Workflow Logic</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// 05 — Education</span>
+        <h2 class="section-title">Academic Background</h2>
+        <p class="section-subtitle">A strong academic foundation in electrical engineering with a consistent top-tier
+          GPA.</p>
+      </div>
+
+      <div class="education-grid">
+        <div class="glass-card edu-card primary reveal">
+          <span class="edu-degree-badge">B.Tech • EE</span>
+          <div class="edu-degree">Bachelor of Technology in Electrical Engineering</div>
+          <div class="edu-institution">🏛️ JD College of Engineering &amp; Management, Nagpur</div>
+          <div class="edu-period">2023 – Present (3rd Year)</div>
+          <div class="edu-grade">
+            9.05 <span class="edu-grade-label">/ 10.00 CGPA</span>
+          </div>
+        </div>
+
+        <div class="glass-card edu-card secondary reveal reveal-delay-1">
+          <span class="edu-degree-badge">HSC • PCM</span>
+          <div class="edu-degree">Higher Secondary Certificate (PCM)</div>
+          <div class="edu-institution">🏫 Ira International School, CBSE, Buttibori, Nagpur</div>
+          <div class="edu-period">2021 – 2023</div>
+          <div class="edu-grade">
+            74.4% <span class="edu-grade-label">Percentile</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// 06 — Contact</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">Whether it's a project, research collaboration, or just a chat — my inbox is always
+          open.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Open to opportunities</h3>
+          <p>
+            I'm currently looking for internships, research collaborations, and exciting projects in embedded systems,
+            IoT, and AI/ML. Feel free to reach out through any channel.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:ayushmhaisgawali@gmail.com" class="contact-link">
+              <div class="contact-link-icon" style="background: rgba(108, 99, 255, 0.15);">📧</div>
+              <div>
+                <div
+                  style="font-size:0.82rem; color: var(--text-muted); margin-bottom:2px; font-family: var(--font-mono);">
+                  Email</div>
+                <div style="color: var(--text-primary);">ayushmhaisgawali@gmail.com</div>
+              </div>
+            </a>
+            <a href="tel:+919765223639" class="contact-link">
+              <div class="contact-link-icon" style="background: rgba(0, 212, 255, 0.1);">📞</div>
+              <div>
+                <div
+                  style="font-size:0.82rem; color: var(--text-muted); margin-bottom:2px; font-family: var(--font-mono);">
+                  Phone</div>
+                <div style="color: var(--text-primary);">+91 9765223639</div>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/aayush-mhaisgawali" target="_blank" class="contact-link">
+              <div class="contact-link-icon" style="background: rgba(0, 119, 181, 0.15);">💼</div>
+              <div>
+                <div
+                  style="font-size:0.82rem; color: var(--text-muted); margin-bottom:2px; font-family: var(--font-mono);">
+                  LinkedIn</div>
+                <div style="color: var(--text-primary);">aayush-mhaisgawali</div>
+              </div>
+            </a>
+            <a href="https://github.com/aayush-mhaisgawali" target="_blank" class="contact-link">
+              <div class="contact-link-icon" style="background: rgba(255, 255, 255, 0.05);">⌨️</div>
+              <div>
+                <div
+                  style="font-size:0.82rem; color: var(--text-muted); margin-bottom:2px; font-family: var(--font-mono);">
+                  GitHub</div>
+                <div style="color: var(--text-primary);">aayush-mhaisgawali</div>
+              </div>
+            </a>
+            <a href="https://maps.google.com/?q=Nagpur,Maharashtra" target="_blank" class="contact-link">
+              <div class="contact-link-icon" style="background: rgba(255, 101, 132, 0.1);">📍</div>
+              <div>
+                <div
+                  style="font-size:0.82rem; color: var(--text-muted); margin-bottom:2px; font-family: var(--font-mono);">
+                  Location</div>
+                <div style="color: var(--text-primary);">Nagpur, Maharashtra, India</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="glass-card contact-form-wrapper reveal reveal-delay-2">
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">// YOUR NAME</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">// YOUR EMAIL</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">// SUBJECT</label>
+              <input type="text" id="subject" name="subject"
+                placeholder="Internship / Collaboration / Just Saying Hi" />
+            </div>
+            <div class="form-group">
+              <label for="message">// MESSAGE</label>
+              <textarea id="message" name="message" placeholder="Tell me what you have in mind..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit">
+              🚀 Send Message
+            </button>
+            <div class="form-success" id="formSuccess">
+              ✅ Message ready — opening your email client!
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">&lt;AM/&gt;</span>
+        <span class="footer-text">© 2025 Aayush Ankush Mhaisgawali — Built with ❤️ &amp; ☕</span>
+        <div class="footer-socials">
+          <a href="mailto:ayushmhaisgawali@gmail.com" class="social-btn" title="Email">📧</a>
+          <a href="https://linkedin.com/in/aayush-mhaisgawali" target="_blank" class="social-btn"
+            title="LinkedIn">💼</a>
+          <a href="https://github.com/aayush-mhaisgawali" target="_blank" class="social-btn" title="GitHub">⌨️</a>
+          <a href="resume_new.pdf" download class="social-btn" title="Download Resume">📄</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
